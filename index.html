@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Effiziente Nutzung von Git/Gitlab im Team</title>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./revealjs/dist/reveal.css"/>
+
+<link rel="stylesheet" href="./revealjs/dist/theme/solarized.css" id="theme"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1 class="title">Effiziente Nutzung von Git/Gitlab im Team</h1><h2 class="date">18. März 2025</h2>
+</section>
+<section>
+<section id="slide-1">
+<h2 id="1"><span class="section-number-2">1.</span> Einleitung</h2>
+<ul>
+<li class="fragment fade-in">Warum Versionskontrolle?</li>
+<li class="fragment fade-in">Herausforderungen ohne Git:  
+<ul>
+<li>Verlorene Änderungen</li>
+<li>Schwierige Zusammenarbeit</li>
+<li>Fehlende Nachvollziehbarkeit</li>
+
+</ul></li>
+<li class="fragment fade-in">Ziel:  
+<ul>
+<li>Effizientere, genauere und zuverlässigere Arbeitsweise mit Git</li>
+
+</ul></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-2">
+<h2 id="2"><span class="section-number-2">2.</span> Was ist Git?</h2>
+<ul>
+<li class="fragment fade-in"><b><b>Git ist ein verteiltes Versionskontrollsystem (DVCS).</b></b></li>
+<li class="fragment fade-in">Entwickelt von Linus Torvalds für die Linux-Kernel-Entwicklung.</li>
+<li class="fragment fade-in"><b><b>Warum Git?</b></b>
+<ul>
+<li class="fragment fade-in">Jeder hat eine vollständige Kopie des Repositories.</li>
+<li class="fragment fade-in">Änderungen können offline verfolgt werden.</li>
+<li class="fragment fade-in">Effiziente Zusammenarbeit durch Branches und Merges.</li>
+
+</ul></li>
+<li class="fragment fade-in"><b><b>Wie unterscheidet es sich von älteren Systemen (SVN, CVS)?</b></b>
+<ul>
+<li class="fragment fade-in">Kein zentraler Server notwendig.</li>
+<li class="fragment fade-in">Schneller und flexibler.</li>
+
+</ul></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-3">
+<h2 id="3"><span class="section-number-2">3.</span> GitLab – Eine Plattform für Git-Projekte</h2>
+<ul>
+<li class="fragment fade-in"><b><b>Was ist GitLab?</b></b>  
+<ul>
+<li>Eine webbasierte DevOps-Plattform für Git-Repositories.</li>
+<li>Open-Source-Alternative zu GitHub mit vollem CI/CD-Support.</li>
+
+</ul></li>
+<li class="fragment fade-in"><b><b>Warum GitLab?</b></b>  
+<ul>
+<li>Private Repositories kostenlos verfügbar.</li>
+<li>Integrierte CI/CD-Pipelines zur Automatisierung von Builds und Tests.</li>
+<li>Code Reviews durch Merge Requests und Issues.</li>
+
+</ul></li>
+<li class="fragment fade-in"><b><b>Wichtige Funktionen in GitLab</b></b>  
+<ul>
+<li>Repositories verwalten, Issues tracken, Code prüfen.</li>
+<li>Continuous Integration (CI) für automatisierte Tests.</li>
+<li>Continuous Deployment (CD) für nahtlose Releases.</li>
+
+</ul></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-4">
+<h2 id="4"><span class="section-number-2">4.</span> Grundlagen von Git</h2>
+<ul>
+<li class="fragment fade-in"><code>Repository</code>: Ein Projekt-Ordner mit Versionshistorie.</li>
+<li class="fragment fade-in"><code>Commit</code>: Eine Momentaufnahme des Codes mit Beschreibung.</li>
+<li class="fragment fade-in"><code>Branch</code>: Eine alternative Entwicklungslinie für Änderungen.</li>
+<li class="fragment fade-in"><code>Merge</code>: Zusammenführen von Branches.</li>
+<li class="fragment fade-in"><code>Rebase</code>: Änderungen auf eine neue Basis setzen.</li>
+<li class="fragment fade-in"><code>Remote Repository</code>: Zentrale Ablage für das Team.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-5">
+<h2 id="5"><span class="section-number-2">5.</span> Effiziente Arbeitsweise mit Git</h2>
+<ul>
+<li class="fragment fade-in"><b><b>Sinnvolle Commit-Nachrichten</b></b>  
+<ul>
+<li>Kurze, aber aussagekräftige Nachrichten.</li>
+
+</ul></li>
+<li class="fragment fade-in"><b><b>Branching-Strategien</b></b>  
+<ul>
+<li>Feature Branches für neue Funktionen.</li>
+<li>Hotfix Branches für Fehlerbehebungen.</li>
+
+</ul></li>
+<li class="fragment fade-in"><b><b>Merge vs. Rebase</b></b>  
+<ul>
+<li>Merge: Bewahrt die Historie.</li>
+<li>Rebase: Macht eine aufgeräumte, lineare Historie.</li>
+
+</ul></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-6">
+<h2 id="6"><span class="section-number-2">6.</span> Zuverlässigkeit in der Zusammenarbeit</h2>
+<ul>
+<li class="fragment fade-in"><b><b>Code Reviews mit Pull Requests</b></b></li>
+<li class="fragment fade-in"><b><b>Fehlersuche mit Git Bisect</b></b></li>
+<li class="fragment fade-in"><b><b>Automatisierte Tests und CI/CD</b></b></li>
+<li class="fragment fade-in"><b><b>Merge-Konflikte effizient lösen</b></b></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-7">
+<h2 id="7"><span class="section-number-2">7.</span> Fazit</h2>
+<ul>
+<li class="fragment fade-in">Git ist ein mächtiges Werkzeug für effiziente, genaue und zuverlässige Softwareentwicklung.</li>
+<li class="fragment fade-in">Wichtigste Erkenntnisse:  
+<ul>
+<li>Sinnvolle Commits und Branching-Strategie nutzen.</li>
+<li>Tools wie <code>git blame</code> und <code>git bisect</code> zur Fehleranalyse einsetzen.</li>
+<li>Zusammenarbeit durch Pull Requests und Code Reviews verbessern.</li>
+
+</ul></li>
+<li class="fragment fade-in"><b><b>Nächste Schritte:</b></b>  
+<ul>
+<li>Teaminterne Git-Regeln festlegen.</li>
+<li>Hands-on Training für spezielle Git-Befehle.</li>
+<li>Einführung von CI/CD zur Automatisierung.</li>
+
+</ul></li>
+<li class="fragment fade-in"><b><b>Diskussion und Fragen</b></b></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="./revealjs/dist/reveal.js"></script>
+<script src="./revealjs/plugin/markdown/markdown.js"></script>
+<script src="./revealjs/plugin/notes/notes.js"></script>
+<script src="./revealjs/plugin/search/search.js"></script>
+<script src="./revealjs/plugin/zoom/zoom.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+hashOneBasedIndex: false,
+pdfSeparateFragments: true,
+overview: true,
+width: 1600,
+height: 900,
+
+transition: 'zoom',
+transitionSpeed: 'default',
+
+// Plugins with reveal.js 4.x
+plugins: [ RevealMarkdown, RevealNotes, RevealSearch, RevealZoom ],
+
+// Optional libraries used to extend reveal.js
+dependencies: [
+]
+
+});
+</script>
+</body>
+</html>

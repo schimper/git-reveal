@@ -1,0 +1,83 @@
+#+TITLE: Effiziente Nutzung von Git/Gitlab im Team
+#+AUTHOR: 
+#+DATE: 18. März 2025
+#+OPTIONS:  timestamp:nil toc:nil num:1 reveal_center:t reveal_progress:t reveal_history:t reveal_control:t reveal_width:1600 reveal_height:900
+#+REVEAL_ROOT: ./revealjs
+#+REVEAL_THEME: solarized
+#+REVEAL_TRANS: zoom
+
+* Einleitung
+  #+ATTR_REVEAL: :frag (fade-in)
+  - Warum Versionskontrolle?  
+  - Herausforderungen ohne Git:  
+    - Verlorene Änderungen  
+    - Schwierige Zusammenarbeit  
+    - Fehlende Nachvollziehbarkeit  
+  - Ziel:  
+    - Effizientere, genauere und zuverlässigere Arbeitsweise mit Git  
+
+* Was ist Git?
+  #+ATTR_REVEAL: :frag (fade-in)
+  - **Git ist ein verteiltes Versionskontrollsystem (DVCS).**
+  - Entwickelt von Linus Torvalds für die Linux-Kernel-Entwicklung.  
+  - **Warum Git?**
+    #+ATTR_REVEAL: :frag (fade-in)
+    - Jeder hat eine vollständige Kopie des Repositories.  
+    - Änderungen können offline verfolgt werden.  
+    - Effiziente Zusammenarbeit durch Branches und Merges.  
+  - **Wie unterscheidet es sich von älteren Systemen (SVN, CVS)?**
+    #+ATTR_REVEAL: :frag (fade-in)
+    - Kein zentraler Server notwendig.  
+    - Schneller und flexibler.  
+* GitLab – Eine Plattform für Git-Projekte
+  #+ATTR_REVEAL: :frag (fade-in)
+  - **Was ist GitLab?**  
+    - Eine webbasierte DevOps-Plattform für Git-Repositories.  
+    - Open-Source-Alternative zu GitHub mit vollem CI/CD-Support.
+  - **Warum GitLab?**  
+    - Private Repositories kostenlos verfügbar.  
+    - Integrierte CI/CD-Pipelines zur Automatisierung von Builds und Tests.  
+    - Code Reviews durch Merge Requests und Issues.
+  - **Wichtige Funktionen in GitLab**  
+    - Repositories verwalten, Issues tracken, Code prüfen.  
+    - Continuous Integration (CI) für automatisierte Tests.  
+    - Continuous Deployment (CD) für nahtlose Releases.  
+* Grundlagen von Git
+  #+ATTR_REVEAL: :frag (fade-in)
+  - =Repository=: Ein Projekt-Ordner mit Versionshistorie.  
+  - =Commit=: Eine Momentaufnahme des Codes mit Beschreibung.  
+  - =Branch=: Eine alternative Entwicklungslinie für Änderungen.  
+  - =Merge=: Zusammenführen von Branches.  
+  - =Rebase=: Änderungen auf eine neue Basis setzen.  
+  - =Remote Repository=: Zentrale Ablage für das Team.  
+
+* Effiziente Arbeitsweise mit Git
+  #+ATTR_REVEAL: :frag (fade-in)
+  - **Sinnvolle Commit-Nachrichten**  
+    - Kurze, aber aussagekräftige Nachrichten.
+  - **Branching-Strategien**  
+    - Feature Branches für neue Funktionen.  
+    - Hotfix Branches für Fehlerbehebungen.
+  - **Merge vs. Rebase**  
+    - Merge: Bewahrt die Historie.  
+    - Rebase: Macht eine aufgeräumte, lineare Historie.  
+
+* Zuverlässigkeit in der Zusammenarbeit
+  #+ATTR_REVEAL: :frag (fade-in)
+  - **Code Reviews mit Pull Requests**  
+  - **Fehlersuche mit Git Bisect**  
+  - **Automatisierte Tests und CI/CD**  
+  - **Merge-Konflikte effizient lösen**  
+
+* Fazit
+  #+ATTR_REVEAL: :frag (fade-in)
+  - Git ist ein mächtiges Werkzeug für effiziente, genaue und zuverlässige Softwareentwicklung.  
+  - Wichtigste Erkenntnisse:  
+    - Sinnvolle Commits und Branching-Strategie nutzen.  
+    - Tools wie =git blame= und =git bisect= zur Fehleranalyse einsetzen.  
+    - Zusammenarbeit durch Pull Requests und Code Reviews verbessern.  
+  - **Nächste Schritte:**  
+    - Teaminterne Git-Regeln festlegen.  
+    - Hands-on Training für spezielle Git-Befehle.  
+    - Einführung von CI/CD zur Automatisierung.  
+  - **Diskussion und Fragen**  
