@@ -1,20 +1,21 @@
-#+TITLE: Effiziente Nutzung von Git/Gitlab im Team
+#+TITLE: Git/Gitlab
 #+AUTHOR: 
-#+DATE: 18. März 2025
-#+OPTIONS:  timestamp:nil toc:nil num:1 reveal_center:t reveal_progress:t reveal_history:t reveal_control:t reveal_width:1600 reveal_height:900
+#+DATE: 25. März 2025
+#+OPTIONS:  timestamp:nil toc:nil num:nil reveal_center:t reveal_progress:t reveal_history:t reveal_control:t reveal_width:1600 reveal_height:900
 #+REVEAL_ROOT: ./revealjs
 #+REVEAL_THEME: solarized
 #+REVEAL_TRANS: zoom
 
-* Einleitung
+* Warum Versionskontrolle?
   #+ATTR_REVEAL: :frag (fade-in)
-  - Warum Versionskontrolle?  
-  - Herausforderungen ohne Git:  
-    - Verlorene Änderungen  
-    - Schwierige Zusammenarbeit  
-    - Fehlende Nachvollziehbarkeit  
-  - Ziel:  
-    - Effizientere, genauere und zuverlässigere Arbeitsweise mit Git  
+  - Habe ich wirklich die neueste Version der Datei?
+  - Welche Version läuft in Produktion?
+    - Welche Versionen existieren?
+  - Wie stelle ich eine frühere Version meiner Datei wieder her?
+  - Wie kann ich eine neues Feature ausprobieren *ohne* etwas kaputt zu machen?
+  - Wie kann ich herausfinden, warum eine Änderung gemacht wurde?
+  - Wie können wir als Team parallel arbeiten, ohne uns gegenseitig
+    zu behindern?
 
 * Was ist Git?
   #+ATTR_REVEAL: :frag (fade-in)
@@ -32,7 +33,7 @@
 * GitLab – Eine Plattform für Git-Projekte
   #+ATTR_REVEAL: :frag (fade-in)
   - **Was ist GitLab?**  
-    - Eine webbasierte DevOps-Plattform für Git-Repositories.  
+    - Eine webbasierte Entwicklungsplattform für Git.
     - Open-Source-Alternative zu GitHub mit vollem CI/CD-Support.
   - **Warum GitLab?**  
     - Private Repositories kostenlos verfügbar.  
